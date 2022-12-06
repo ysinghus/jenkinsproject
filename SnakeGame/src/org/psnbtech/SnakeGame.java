@@ -11,7 +11,6 @@ import java.util.Random;
 
 import javax.swing.JFrame;
 
-import org.junit.Test;
 
 /**
  * The {@code SnakeGame} class is responsible for handling much of the game's logic.
