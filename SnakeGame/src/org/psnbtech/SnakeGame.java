@@ -15,7 +15,11 @@ import javax.swing.JFrame;
  *
  */
 public class SnakeGame extends JFrame {
-		
+	
+	public int sum(int a, int b)
+	{
+		return a + b;
+	}
 	/**
 	 * The Serial Version UID.
 	 */
@@ -103,7 +107,7 @@ public class SnakeGame extends JFrame {
 	 * Creates a new SnakeGame instance. Creates a new window,
 	 * and sets up the controller input.
 	 */
-	private SnakeGame() {
+	public SnakeGame() {
 		super("Snake Remake");
 		setLayout(new BorderLayout());
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -555,6 +559,7 @@ public class SnakeGame extends JFrame {
 	public Direction getDirection() {
 		return directions.peek();
 	}
+	
 	
 	/**
 	 * Entry point of the program.
