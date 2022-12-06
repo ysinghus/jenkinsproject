@@ -1,5 +1,7 @@
 package org.psnbtech;
 
+import static org.junit.Assert.assertEquals;
+
 import java.awt.BorderLayout;
 import java.awt.Point;
 import java.awt.event.KeyAdapter;
@@ -8,6 +10,8 @@ import java.util.LinkedList;
 import java.util.Random;
 
 import javax.swing.JFrame;
+
+import org.junit.Test;
 
 /**
  * The {@code SnakeGame} class is responsible for handling much of the game's logic.
@@ -20,6 +24,7 @@ public class SnakeGame extends JFrame {
 	{
 		return a + b;
 	}
+	
 	/**
 	 * The Serial Version UID.
 	 */
@@ -569,5 +574,11 @@ public class SnakeGame extends JFrame {
 		SnakeGame snake = new SnakeGame();
 		snake.startGame();
 	}
-
+	@Test
+	public void test() {
+		SnakeGame mySum = new SnakeGame();
+		int actual=mySum.sum(20,30);
+		int expected = 50;
+		assertEquals(expected, actual);
+	}
 }
