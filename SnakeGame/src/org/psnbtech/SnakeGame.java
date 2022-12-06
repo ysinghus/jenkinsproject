@@ -1,6 +1,6 @@
 package org.psnbtech;
 
-import static org.junit.Assert.assertEquals;
+
 
 import java.awt.BorderLayout;
 import java.awt.Point;
@@ -574,11 +574,5 @@ public class SnakeGame extends JFrame {
 		SnakeGame snake = new SnakeGame();
 		snake.startGame();
 	}
-	@Test
-	public void test() {
-		SnakeGame mySum = new SnakeGame();
-		int actual=mySum.sum(20,30);
-		int expected = 50;
-		assertEquals(expected, actual);
-	}
+
 }
