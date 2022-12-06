@@ -7,7 +7,7 @@ import java.awt.Graphics;
 import java.awt.Point;
 
 import javax.swing.JPanel;
-
+//random comment 6
 /**
  * The {@code BoardPanel} class is responsible for managing and displaying the
  * contents of the game board.
