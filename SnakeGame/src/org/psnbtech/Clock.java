@@ -6,6 +6,7 @@ package org.psnbtech;
  * @author Brendan Jones
  *
  */
+//random comment 2
 public class Clock {
 	//Adding a random comment
 	/**
