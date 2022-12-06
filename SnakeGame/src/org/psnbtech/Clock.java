@@ -7,7 +7,7 @@ package org.psnbtech;
  *
  */
 public class Clock {
-	
+	//Adding a random comment
 	/**
 	 * The number of milliseconds that make up one cycle.
 	 */
