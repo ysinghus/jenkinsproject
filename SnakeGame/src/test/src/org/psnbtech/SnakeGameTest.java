@@ -1,8 +1,10 @@
 package org.psnbtech;
 import org.psnbtech.*;
 
-/*
+
 import org.junit.*;
+
+import static org.junit.Assert.assertEquals;
 
 //import static org.junit.Assert.*;
 import javax.swing.JFrame;
@@ -19,4 +21,3 @@ public class SnakeGameTest {
 	}
 
 }
-*/
